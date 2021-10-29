@@ -1,9 +1,9 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+title: 오키도기
+email: gaebalnaebal@gmail.com
+url: https://okeydoggy.github.io
+description: "내 반려견은 무슨 생각을 하고 있는 걸까?"
+keywords: "반려견, 인공지능, 3d pose estimation"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
 
