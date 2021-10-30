@@ -41,9 +41,9 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
+  - title: youtube
     url:
-  - title: stack-overflow
+  - title: instagram
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket
     url: http://bitbucket.org/jekyll
