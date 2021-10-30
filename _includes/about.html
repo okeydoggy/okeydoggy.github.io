@@ -1,20 +1,26 @@
  <!-- About Section -->
-    <section class="success" id="portfolio">
-        <div class="container">
+
+    <section id="portfolio">
+        <div class="container portfolio-flex-grid">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>인공지능을 통해 행동패턴을 학습하여 반려견이 현재 무엇을 원하고 어떤 상태인지 파악할 수 있습니다. 문제 행동을 파악하여 적절한 훈련 방법을 제시해주기 위한 솔루션을 연구하는 회사 입니다.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! </p>
-                </div>
-
+            <div class="portfolio-flex-row">
+                {% for post in site.posts %}
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </section>
