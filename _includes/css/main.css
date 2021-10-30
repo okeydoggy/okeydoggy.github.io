@@ -89,6 +89,7 @@ header {
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
+    font-family: Dongle-Bold;
 }
 
 header img {
@@ -113,6 +114,7 @@ header .intro-text .skills {
     header .container {
         padding-top: 200px;
         padding-bottom: 100px;
+        font-family: Dongle-Bold;
     }
 
     header .intro-text .name {
