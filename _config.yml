@@ -37,7 +37,8 @@ footer:
   copyright: okeydoggy
   location: Location
   social: Around the Web
-  #credits: Credits
+  credits: Member
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -52,8 +53,9 @@ address:
   - line: Art & Technology 연구원
 
 # Credits content
-#credits:  
-
+credits:  
+  - line: 강 명진
+  - line: 유 림
 # Build settings
 markdown: kramdown
 permalink: pretty
