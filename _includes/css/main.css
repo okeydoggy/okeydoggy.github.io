@@ -9,7 +9,7 @@ body {
 }
 
 p {
-    font-size: 18px;
+    font-size: 55px;
 }
 
 p.small {
@@ -100,12 +100,12 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 3em;
-    font-weight: 250;
+    font-size: 3.2em;
+    font-weight: 350;
 }
 
 header .intro-text .skills {
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 150;
 }
 
