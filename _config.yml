@@ -42,19 +42,17 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: youtube
-    url:
+    url: https://www.youtube.com/channel/UComBmlkG4hRBj1jcGGJ2fDQ
   - title: instagram
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://www.instagram.com/okdog.lab/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 서울특별시 마포구 백범로 35 (신수동) 서강대학교 
+  - line: Art & Technology 연구원
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+#credits:  
 
 # Build settings
 markdown: kramdown
