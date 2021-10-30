@@ -53,7 +53,7 @@ address:
   - line: Art & Technology 연구원
 
 # Credits content
-credits:  "강 명진" /n "유 림"
+credits:  "강 명진  "  "유 림"
 # Build settings
 markdown: kramdown
 permalink: pretty
