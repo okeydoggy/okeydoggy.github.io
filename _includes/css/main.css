@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background-image: src="img/profile.png"
 }
 
 header .container {
@@ -100,8 +100,8 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 5.2em;
-    font-weight: 550;
+    font-size: 3.2em;
+    font-weight: 350;
 }
 
 header .intro-text .skills {
